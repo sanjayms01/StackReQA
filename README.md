@@ -6,7 +6,7 @@
 Note:
 Data folder is not uploaded due to the large file sizes.
 
-1. master: contains general data processing notebooks and helper functions.
+master: contains general data processing notebooks and helper functions.
 
   - EDA.ipynb: exploratory data analysis on data
   - master_dictionaries.ipynb: creates dictionaries of question and 10 answer pairs and labels which answer is true (1) or false (0) for modeling purposes.
@@ -17,4 +17,7 @@ Data folder is not uploaded due to the large file sizes.
     - evaluation.py: functions that return metrics that evaluate model performance
     - parse.py: 
     - smiliarity_score_dicts.py: functions that return similarity scores of each predicted answers and returns answer rankings
-
+      - bert_funcs.py: functions that return tokenized data for BERT's pretrained model
+      - evaluation.py: functions that return metrics that evaluate model performance
+      - parse.py: 
+      - smiliarity_score_dicts.py: functions that return similarity scores of each predicted answers and returns answer rankings
